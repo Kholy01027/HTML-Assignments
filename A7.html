@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A7</title>
+</head>
+<body>
+    <form action="#" method="get" target="_self">
+        <fieldset>
+            <legend>A1</legend>
+            <input type="text" name="token" hidden value="b92f1fc2fce391ad7af633723afd3055">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" min="5" max="20" required autofocus><br><br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" disabled value="o@o.com">
+            <br><br>
+            <input type="checkbox" value="Analysis" name="skills" id="Analysis">
+            <label for="Analysis">Analysis</label><br>
+            <input type="checkbox" value="Advanced Search" name="skills" id="Advanced Search">
+            <label for="Advanced Search">Advanced Search</label><br>
+            <input type="checkbox" value="Logical Thinking" name="skills" id="Logical Thinking">
+            <label for="Logical Thinking">Logical Thinking</label><br>
+            <input type="checkbox" value="Problem Solving" name="skills" id="Problem Solving">
+            <label for="Problem Solving">Problem Solving</label><br>
+            <input type="checkbox" value="Planning" name="skills" id="Planning">
+            <label for="Planning">Planning</label>
+            <br><br>
+            <input type="radio" value="Business Analyst" name="job" id="Business Analyst" required>
+            <label for="Business Analyst">Business Analyst</label><br>
+            <input type="radio" value="Back-End Developer" name="job" id="Back-End Developer">
+            <label for="Back-End Developer">Back-End Developer</label><br>
+            <input type="radio" value="Front-End Developer" name="job" id="Front-End Developer">
+            <label for="Front-End Developer">Front-End Developer</label><br>
+            <input type="radio" value="Scrum Master" name="job" id="Scrum Master">
+            <label for="Scrum Master">Scrum Master</label><br>
+            <input type="radio" value="Project Manager" name="job" id="Project Manager">
+            <label for="Project Manager">Project Manager</label><br>
+            <br><br>
+            <label for="lang">Programming Language</label>
+            <select id="lang" required name="lang">
+                <optgroup label="PHP">
+                <option value="php-v5">v5</option>
+                <option value="php-v6">v6</option>
+                <option value="php-v7">v6</option>
+                </optgroup>
+                <optgroup label="Python">
+                <option value="py-v2">v2</option>
+                <option value="py-v3">v3</option>
+                <option value="py-v3.9">v3.9</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <textarea style="resize: none" rows="10" cols="20" name="brief" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+            <br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
